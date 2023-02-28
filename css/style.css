@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+html {
+  /*  margin-left: 20%; */
+    max-width: 100%;
+    background-color: lightgray;
+} 
+
+header { 
+    background:lightblue;
+    max-height: 50%;
+    padding: 10% 10% 10% 10%;
+    width: 90%;
+    display: flex; flex-direction: column; flex-wrap: wrap;
+}
+
+header > h1 {width: 100%; color: grey; font-size: 40px;} 
+h2 {color: grey; font-size: 30px;}
+section > h2 {text-align: center; display: inline;}
+
+.info{margin-left: 15%; display: flex; flex-direction: row; flex-wrap: nowrap; margin-top: 2%;}
+section{display: flex; width: 90%;}
+.section{font-size: 20px; justify-content: space-around;}
+.button {
+    width: 25%;
+    justify-content: space-around;
+    background-color: lightblue;
+    border-radius: 10%;
+    margin: 2%;
+    padding: 2%;
+}
+
+a:link, a:visited, a:active {text-decoration: none; color: grey; text-align: center;}
+
+.Diagnoses {
+    background-color: grey;
+    width: 110%;
+    border-radius: 7.5%;
+    padding: 2%;
+}
+
+.Diagnoses > h1, .Diagnoses > ul {color: lightblue; text-align: center;}
+
+.Diagnoses > h1 {font-size: 40px;}
+
+.Diagnoses > ul {font-size: 20px;}
+
+.Meds {
+    background-color: grey;
+    width: 110%;
+    border-radius: 7.5%;
+    padding: 2%;
+}
+
+.Meds > h1, .Meds > ul {color: lightblue; text-align: center;}
+
+.Meds > h1 {font-size: 40px;}
+
+.Meds > ul {font-size: 20px;}
+
+.Dr {
+    background-color: grey;
+    width: 110%;
+    border-radius: 7.5%;
+    padding: 2%;
+}
+
+.Dr > h1, .Dr > ul {color: lightblue; text-align: center;}
+
+.Dr > h1 {font-size: 40px;}
+
+.Dr > ul {font-size: 20px;}
